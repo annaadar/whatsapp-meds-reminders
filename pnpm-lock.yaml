@@ -14,6 +14,9 @@ importers:
       '@types/node':
         specifier: ^26.4.0
         version: 26.4.0
+      '@whatsapp-cloudapi/types':
+        specifier: ^5.0.1
+        version: 5.0.1
       dotenv:
         specifier: ^17.4.2
         version: 17.4.2
@@ -178,6 +181,10 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@whatsapp-cloudapi/types@5.0.1':
+    resolution: {integrity: sha512-0HGlnzM8P4lrhSMZGoZMYlFLC/DorZXGoeKctA16GhlrTGqNErO3LA7QO5OKMUpo78hj3kCsq/RYX70LnSqwoQ==}
+    engines: {node: '>=24'}
+
   acorn-walk@8.3.5:
     resolution: {integrity: sha512-HEHNfbars9v4pgpW6SO1KSPkfoS0xVOM/9UzkJltjlsHZmJasxg8aXkuZa7SMf8vKGIBhpUsPluQSqhJFCqebw==}
     engines: {node: '>=0.4.0'}
@@ -321,6 +328,8 @@ snapshots:
 
   '@typescript/typescript-win32-x64@7.0.2':
     optional: true
+
+  '@whatsapp-cloudapi/types@5.0.1': {}
 
   acorn-walk@8.3.5:
     dependencies:
