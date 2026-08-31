@@ -1,0 +1,23 @@
+{
+  "name": "whatsapp-aws",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "del /q dist function.zip",
+    "prebuild": "npm run clean",
+    "test": "ts-node -r dotenv/config src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.162",
+    "@types/node": "^26.4.0",
+    "dotenv": "^17.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
