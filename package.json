@@ -2,7 +2,7 @@
   "name": "whatsapp-aws",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "clean": "del /q dist function.zip",
